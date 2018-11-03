@@ -34,6 +34,30 @@
 * Dev 환경과 Build 서버를 분리한다.
 * ref : https://docs.travis-ci.com/user/languages/android/
 
+```
+// .travis.yml
+language: android
+
+android:
+  components:
+    - tools
+    - platform-tools
+    - tools
+
+    # The BuildTools version used by your project // check build-tools-version in sdk manager
+    - build-tools-28.0.3
+
+    # The SDK version used to compile your project // build.gradle(Module.app) target sdk version
+    - android-27
+
+before_install:
+  - chmod +x gradlew
+
+script: ./gradlew build
+
+```
+
+
 
 
 ## JUnit
