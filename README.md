@@ -32,6 +32,9 @@
 ## Android Version
 ## Travis
 * Dev 환경과 Build 서버를 분리한다.
+* ref : https://docs.travis-ci.com/user/languages/android/
+
+
 
 ## JUnit
 
@@ -47,4 +50,6 @@ Also used to connect Android devices and root them.(fastboot, adb and more..)
 Always use the latest.(Recommended)
 ````
 
-## 1.0.2
+### Sdk tools vs SDK build tools vs SDK platform vs SDK platform tools
+* https://developer.android.com/studio/releases/sdk-tools
+* https://stackoverflow.com/questions/19911762/what-are-the-android-sdk-build-tools-platform-tools-and-tools-and-which-versio
