@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/asfrom30/TravisWithAndroid.svg?branch=master)](https://travis-ci.org/asfrom30/TravisWithAndroid)
+
 # Environment Setting
 
 ## Process
