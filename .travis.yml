@@ -6,10 +6,10 @@ android:
     - platform-tools
     - tools
 
-    # The BuildTools version used by your project
+    # The BuildTools version used by your project // check build-tools-version in sdk manager
     - build-tools-28.0.3
 
-    # The SDK version used to compile your project
+    # The SDK version used to compile your project // build.gradle(Module.app) targetsdk version
     - android-27
 
 before_install:
